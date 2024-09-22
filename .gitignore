@@ -1,0 +1,112 @@
+################################################################################
+# macos.gitignore
+#
+# macOS gitignore.
+# Based on: https://github.com/github/gitignore/blob/main/Global/macOS.gitignore.
+################################################################################
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+################################################################################
+# stm32cube.gitignore
+#
+# STM32CubeMX/STM32CubeIDE gitignore.
+################################################################################
+
+# CubeMX project files and settings
+.cproject
+.project
+.mxproject
+
+# IDE settings
+.settings/
+.metadata/
+
+# Build directories (CubeIDE)
+Debug/
+debug/
+Release/
+release/
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*.bin
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+################################################################################
+# Additional common exclusions
+################################################################################
+
+# Backup files
+*~ 
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.bak2
