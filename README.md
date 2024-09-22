@@ -7,9 +7,7 @@ This repository contains the source code for controlling a reflow oven using an 
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Dependencies](#dependencies)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
+
 
 ## Introduction
 The reflow oven control project uses an STM32 microcontroller to automate the reflow soldering process. It allows users to load temperature profiles, monitor the process, and control heating elements in real-time.
