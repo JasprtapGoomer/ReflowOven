@@ -6,6 +6,7 @@ This repository contains the source code for controlling a reflow oven using an 
 - [Introduction](#introduction)
 - [Features](#features)
 - [Project Structure](#project-structure)
+- [Code Summary](#code-summary)
 - [Dependencies](#dependencies)
 
 
@@ -31,7 +32,7 @@ The reflow oven control project uses an STM32 microcontroller to automate the re
 | `stm32/Drivers/CMSIS/Device/ST/STM32F1xx`| STM32F1xx-specific device files                                            |
 | `stm32/libs/`                            | Libraries used in the project                                              |
 
-## Detailed File Description
+## Code Summary
 
 <details>
   <summary><code>Core/Src/main.c</code></summary>
